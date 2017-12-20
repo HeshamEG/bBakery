@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return Bakery;
 });
 //Route::group(['middleware'=>'web'],function (){
    Route::post('/signup',[
