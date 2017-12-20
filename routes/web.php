@@ -19,8 +19,10 @@ Route::get('/', function () {
        'uses'=>'UserController@signup',
        'as'=>'signup'
    ]);
-   Route::get('/test',  [
-   'hello'=> 1
+   Route::get('/test',
 
-   ]);
+function (){
+       return 8;
+}
+   );
 //});
