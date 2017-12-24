@@ -2,6 +2,10 @@
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\User;
+use Image;
+use PharIo\Manifest\Email;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\File;
 /**
  * Created by PhpStorm.
  * User: a4p5

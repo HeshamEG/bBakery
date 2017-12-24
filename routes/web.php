@@ -12,13 +12,11 @@
 */
 
 Route::get('/', function () {
-    return Bakery;
+    return 'Bakery';
 });
 //Route::group(['middleware'=>'web'],function (){
-   Route::post('/signup',[
-       'uses'=>'UserController@signup',
-       'as'=>'signup'
-   ]);
+   Route::post('/{lang}/signup',
+       'UserController@signup($lang)');
    Route::get('/test',
 
 function (){
