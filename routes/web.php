@@ -11,18 +11,16 @@
 |
 */
 
+Route::get('/test',
+    function (){
+        return 'hi';
+    }
+);
 Route::get('/', function () {
-    return Bakery;
+    return 'Bakery';
 });
 //Route::group(['middleware'=>'web'],function (){
-   Route::post('/signup',[
-       'uses'=>'UserController@signup',
-       'as'=>'signup'
-   ]);
-   Route::get('/test',
+Route::post('/signup','UserController@signup');
 
-function (){
-       return 8;
-}
-   );
+
 //});
