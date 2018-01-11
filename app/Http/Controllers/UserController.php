@@ -2,6 +2,7 @@
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\User;
+<<<<<<< HEAD
 use App\Items;
 use App\favorites;
 use App\Cart;
@@ -9,6 +10,9 @@ use App\ItemImages;
 
 use Image;
 use Illuminate\Support\Facades\Validator;
+=======
+use Image;
+>>>>>>> a71f1863da467cfb1de57e877b01d8c1f2578146
 use PharIo\Manifest\Email;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\File;

@@ -20,7 +20,13 @@ Route::get('/', function () {
     return 'Bakery';
 });
 //Route::group(['middleware'=>'web'],function (){
+<<<<<<< HEAD
 Route::post('/signup','UserController@signup');
 
+=======
+   Route::post('/{lang}/signup',
+       'UserController@signup($lang)');
+   Route::get('/test',
+>>>>>>> a71f1863da467cfb1de57e877b01d8c1f2578146
 
 //});

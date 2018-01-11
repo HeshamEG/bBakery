@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class User extends Model
 {
 protected $table='user';
+<<<<<<< HEAD
     public $primaryKey='user_id';
 
 
@@ -62,5 +63,8 @@ protected $table='user';
                 return ['error' => 'this account is not registered'];
             }        }
     }
+=======
+    public $primaryKey='Id';
+>>>>>>> a71f1863da467cfb1de57e877b01d8c1f2578146
 }
 
